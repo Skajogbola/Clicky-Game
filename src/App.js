@@ -7,4 +7,11 @@ import Footer from "./components/Footer";
 import vegetables from "./vegetables.json";
 import "./App.css";
 
+class App extends Component {
+    state = {
+      fish,
+      clickedFish: [],
+      score: 0
+    };
+}
 export default App;
