@@ -1,50 +1,50 @@
 [
-    {
-      "id": 1,
-      "image": "asparagus.jpg"
-    },
-    {
-      "id": 2,
-      "image": "broccoli.jpeg"    
-    },
-    {
-      "id": 3,
-      "image": "cabbage.jpg"
-    },
-    {
-      "id": 4,
-      "image": "celery.jpg" 
-    },
-    {
-      "id": 5,
-      "image": "collardgreens.jpg"
-    },
-    {
-      "id": 6,
-      "image": "garlic.jpg"
-    },
-    {
-      "id": 7,
-      "image": "kale.jpg"
-    },
-    {
-      "id": 8,
-      "image": "lettuce.jpg"
-    },
-    {
-      "id": 9,
-      "image": "spinach.jpg"
-    },
-    {
-      "id": 10,
-      "image": "swisschard.jpg"
-    },
-    {
-      "id": 11,
-      "image": "turnip.jpg"
-    },
-    {
-      "id": 12,
-      "image": "watercress.jpg"
-    }
+  {
+    "id": "1",
+    "image":"/assets/images/asparagus.jpg"
+  },
+  {
+    "id": "2",
+    "image": "/assets/images/broccoli.jpg"    
+  },
+  {
+    "id": "3",
+    "image": "/assets/images/cabbage.jpg"
+  },
+  {
+    "id": "4",
+    "image": "/assets/images/celery.jpg" 
+  },
+  {
+    "id": "5",
+    "image": "/assets/images/collardgreens.jpg"
+  },
+  {
+    "id": "6",
+    "image": "/assets/images/garlic.jpg"
+  },
+  {
+    "id": "7",
+    "image": "/assets/images/kale.jpg"
+  },
+  {
+    "id": "8",
+    "image": "/assets/images/lettuce.jpg"
+  },
+  {
+    "id": "9",
+    "image": "/assets/images/spinach.jpg"
+  },
+  {
+    "id": "10",
+    "image": "/assets/images/swisschard.jpg"
+  },
+  {
+    "id": "11",
+    "image": "/assets/images/turnip.jpg"
+  },
+  {
+    "id": "12",
+    "image": "/assets/images/watercress.jpg"
+  }
 ]
