@@ -4,9 +4,8 @@ import "./Card.css";
 
 //pass the image into each card so all 12 are rendered
 const Card = props => (
-  <div className="card" onClick={props.imageClick}>
+  <div className="card" onClick={() => props.imageClick(props.id)}>
     <div className="img-container">
-      {/* <img alt={props.image.replace(".jpg", "")} src={require("../../images/" + props.image)} /> */}
       <img alt={props.id} src={props.image} />
     </div>
   </div>
