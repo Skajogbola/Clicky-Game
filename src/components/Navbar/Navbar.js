@@ -7,10 +7,10 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-default navbar-fixed-top">
          <ul>
-          <li className="itemLeft">Test Your Memory</li>
-          <li className="itemCenter">Status: {this.props.status}</li>
-          <li className="itemRight">Score: {this.props.score}</li>
-          <li className="itemRight">Top Score: {this.props.topscore}</li>
+          <li className="itemOne">Test Your Memory</li>
+          <li className="itemTwo">Status: {this.props.status}</li>
+          <li className="itemThree">Score: {this.props.score}</li>
+          <li className="itemFour">Top Score: {this.props.topscore}</li>
         </ul>
       </nav>
     );
