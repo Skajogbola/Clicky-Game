@@ -26,7 +26,7 @@ This is a memory game using React. The application's UI is split into four compo
 
 ## Website
 
-https://kimgomizzou.github.io/Clicky-Game/
+https://skajogbola.github.io/Clicky-Game/
 
 ## Copyright
 
