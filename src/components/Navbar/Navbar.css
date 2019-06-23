@@ -1,30 +1,150 @@
+.navbar {
+  background: #490549;
+  min-height: 70px;
+  width: 100%;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+  color: #fff;
+  font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+  z-index: 99;
+  white-space: nowrap;
+}
+.brand{
+  width:30%
+}
+.brand1{
+  width:40%
+}
+.brand2{
+  width:30%
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar li {
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  padding: 26px 0;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.navbar .correct {
+  -webkit-animation: 1s correct;
+  animation: 1s correct
+}
+
+.navbar .incorrect {
+  -webkit-animation: 1s incorrect;
+  animation: 1s incorrect
+}
+
+@-webkit-keyframes correct {
+  0% {
+      color: #fff
   }
-  
-  .itemLeft {
-    width: 15%;
+
+  20% {
+      color: #2e7d32
   }
-  
-  .itemCenter {
-      width: 70%;
+
+  40% {
+      color: #fff
   }
-  
-  .itemRight {
-    width: 15%;
+
+  60% {
+      color: #2e7d32
   }
-  
-  .navbar {
-    background: #490549;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+
+  80% {
+      color: #fff
   }
-  
-  li {
-    color: white;
-    padding: 15px 0;
+
+  to {
+      color: #fff
   }
-  
-  body {
-    font-size: 24px;
+}
+
+@keyframes correct {
+  0% {
+      color: #fff
   }
+
+  20% {
+      color: #2e7d32
+  }
+
+  40% {
+      color: #fff
+  }
+
+  60% {
+      color: #2e7d32
+  }
+
+  80% {
+      color: #fff
+  }
+
+  to {
+      color: #fff
+  }
+}
+
+@-webkit-keyframes incorrect {
+  0% {
+      color: #fff
+  }
+
+  20% {
+      color: #c62828
+  }
+
+  40% {
+      color: #fff
+  }
+
+  60% {
+      color: #c62828
+  }
+
+  80% {
+      color: #fff
+  }
+
+  to {
+      color: #fff
+  }
+}
+
+@keyframes incorrect {
+  0% {
+      color: #fff
+  }
+
+  20% {
+      color: #c62828
+  }
+
+  40% {
+      color: #fff
+  }
+
+  60% {
+      color: #c62828
+  }
+
+  80% {
+      color: #fff
+  }
+
+  to {
+      color: #fff
+  }
+}
